@@ -125,7 +125,7 @@ These are the most commonly asked topics in Go backend interviews.
 - [x] `06_concurrency` -- Implemented (12 topics + quick revision)
 - [x] `07_io_files_networking` -- Implemented (11 topics + quick revision)
 - [x] `08_http_and_backend` -- Implemented (11 topics + quick revision)
-- [ ] `09_performance_and_profiling`
+- [x] `09_performance_and_profiling` -- Implemented (10 topics + quick revision)
 - [ ] `10_design_patterns_in_go`
 - [ ] `11_system_design_in_go`
 - [ ] `12_capstone_projects`
