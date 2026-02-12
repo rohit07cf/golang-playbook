@@ -3,11 +3,13 @@
 ## What It Is
 
 - `bufio.Scanner` reads input line-by-line (or by custom split function)
+- **ELI10:** Buffered I/O is like loading a shopping cart instead of carrying items one by one to the checkout.
 - `bufio.NewReader` / `bufio.NewWriter` wrap readers/writers with a buffer
 
 ## Why It Matters
 
 - Line-by-line reading is the most common file processing pattern
+- **ELI10:** Without buffering, every tiny read or write is a separate trip to the OS -- like driving to the store each time you need one egg.
 - Buffered writes reduce syscalls -- critical for performance
 
 ## Syntax Cheat Sheet

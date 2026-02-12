@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Memory profiling**: measuring how much heap memory your program allocates and where
+- **ELI10:** Memory profiling is checking who left all their stuff on the floor -- find the messy function, clean it up.
 - **Allocations-per-op**: the key metric from `-benchmem` -- fewer allocs = less GC pressure
 
 ## Why It Matters
 
 - Every heap allocation eventually triggers garbage collection, adding latency
+- **ELI10:** Every allocation is trash the garbage collector has to pick up later -- less trash means less waiting.
 - Interviewers ask "how would you reduce allocations?" -- you need to know where they happen
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - `io.Reader`: `Read(p []byte) (n int, err error)` -- reads bytes into a buffer
+- **ELI10:** io.Reader is a drinking straw -- it sucks bytes from any source. io.Writer is a garden hose -- it pushes bytes anywhere.
 - `io.Writer`: `Write(p []byte) (n int, err error)` -- writes bytes from a buffer
 
 ## Why It Matters
 
 - These two interfaces underpin **everything** in Go: files, networks, HTTP, compression
+- **ELI10:** Think of Reader and Writer as universal plugs -- anything that reads or writes bytes snaps together like LEGO.
 - Interviewers expect you to explain why Go's IO is composable
 
 ## Syntax Cheat Sheet

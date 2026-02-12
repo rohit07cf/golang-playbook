@@ -3,11 +3,13 @@
 ## What It Is
 
 - A **goroutine** is a lightweight function execution managed by the Go runtime (~2 KB stack)
+- **ELI10:** A goroutine is like hiring a super cheap intern who works fast and barely eats any memory
 - Launch with `go f()` -- the runtime multiplexes goroutines onto OS threads
 
 ## Why It Matters
 
 - Go can run **millions** of goroutines; OS threads cap around thousands
+- **ELI10:** Threads are like renting forklifts. Goroutines are like hiring bicycle couriers -- thousands of them, cheap and nimble.
 - Interviewers ask "what's the difference between a goroutine and a thread?" constantly
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Escape analysis**: the Go compiler decides whether a variable lives on the stack (fast) or heap (slower, GC'd)
+- **ELI10:** Escape analysis is the compiler asking "can this stay on the fast shelf (stack) or does it need the big warehouse (heap)?"
 - A variable "escapes to heap" when it outlives its function scope (e.g., returned as a pointer)
 
 ## Why It Matters
 
 - Stack allocation is nearly free; heap allocation requires GC -- understanding this is key to perf tuning
+- **ELI10:** Stack is your pocket, heap is your backpack -- the pocket is faster to reach into, but only fits small stuff that doesn't need to stick around.
 - Interviewers ask "when does a value escape to heap?" to test your understanding of Go internals
 
 ## Syntax Cheat Sheet

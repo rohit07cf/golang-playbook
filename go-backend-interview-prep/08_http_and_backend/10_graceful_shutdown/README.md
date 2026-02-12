@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Graceful shutdown**: stop accepting new connections, finish in-flight requests, then exit
+- **ELI10:** Graceful shutdown is finishing your current conversation before hanging up the phone -- don't just slam the receiver.
 - Go: `http.Server.Shutdown(ctx)` does this; `server.Close()` is abrupt (drops connections)
 
 ## Why It Matters
 
 - Abrupt shutdown drops in-flight requests -- users see errors, data may be lost
+- **ELI10:** Killing a server mid-request is like pulling the tablecloth during dinner -- everyone's meal ends up on the floor.
 - Interviewers expect you to demonstrate signal handling + graceful drain
 
 ## Syntax Cheat Sheet

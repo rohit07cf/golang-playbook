@@ -3,11 +3,13 @@
 ## What It Is
 
 - **CRUD**: Create, Read, Update, Delete -- the four basic operations on a resource
+- **ELI10:** CRUD is the four food groups of APIs -- Create, Read, Update, Delete. Every API is just combinations of these.
 - A JSON API exposes CRUD via HTTP methods: POST, GET, PUT/PATCH, DELETE
 
 ## Why It Matters
 
 - Building a CRUD API from scratch is the most common backend interview exercise
+- **ELI10:** If you can build a CRUD API with proper status codes and locking, you can build 90% of what backends actually do.
 - Interviewers check struct design, mutex safety, status codes, and error handling
 
 ## Syntax Cheat Sheet

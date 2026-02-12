@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Worker pool**: fixed number of goroutines processing tasks from a channel -- bounded concurrency
+- **ELI10:** Concurrency without limits is like opening all the browser tabs at once -- your machine begs for mercy.
 - **Backpressure**: using buffered channels to limit how fast producers can push work
 
 ## Why It Matters
 
 - Unbounded goroutine spawning can exhaust memory and kill your service
+- **ELI10:** A worker pool is like having exactly four cashiers -- customers line up instead of everyone shouting at once.
 - Interviewers expect you to know worker pool pattern and how to limit concurrency
 
 ## Syntax Cheat Sheet

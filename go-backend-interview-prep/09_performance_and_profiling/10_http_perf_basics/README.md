@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Connection reuse**: HTTP keep-alive lets clients reuse TCP connections across requests
+- **ELI10:** Reusing HTTP connections is like keeping the phone line open instead of dialing again for every sentence.
 - **Client configuration**: timeouts, transport settings, and connection pooling via `http.Client`
 
 ## Why It Matters
 
 - Creating a new TCP connection per request adds ~1-100ms of latency (DNS + TLS handshake)
+- **ELI10:** Every new connection means a fresh handshake -- imagine introducing yourself to your friend before every sentence.
 - Interviewers test whether you configure `http.Client` properly for production use
 
 ## Syntax Cheat Sheet

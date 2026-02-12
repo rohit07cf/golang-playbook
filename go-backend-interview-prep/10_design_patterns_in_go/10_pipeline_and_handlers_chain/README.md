@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Pipeline / Chain of Responsibility**: a message passes through a sequence of handlers; each can process, modify, or reject it
+- **ELI10:** A pipeline is a factory assembly line -- each station does one job and passes the item to the next.
 - In Go: each handler has the same interface and calls the next handler
 
 ## Why It Matters
 
 - Pipelines separate concerns: validate -> enrich -> send, each step independent
+- **ELI10:** Without a pipeline, one giant function does everything -- with a pipeline, each worker handles one step and hands it off.
 - Interviewers test whether you can compose processing steps cleanly
 
 ## Syntax Cheat Sheet

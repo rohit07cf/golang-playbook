@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go: `encoding/csv` provides `csv.NewReader` / `csv.NewWriter`
+- **ELI10:** CSV is the world's simplest spreadsheet format -- just commas and dreams.
 - Reads/writes CSV with proper quoting, escaping, and delimiters
 
 ## Why It Matters
 
 - CSV is still the most common data exchange format for batch processing
+- **ELI10:** Everyone loves fancy databases, but half the real world still runs on CSV files emailed at 5pm on Friday.
 - Interviewers test whether you handle headers, quoting, and edge cases
 
 ## Syntax Cheat Sheet

@@ -3,6 +3,7 @@
 ## What It Is
 
 - Go's built-in hash map: unordered key-value pairs
+- **ELI10:** A map is a labeled drawer cabinet -- but someone keeps shuffling the drawer order when you're not looking
 - Keys must be comparable types (no slices, no maps, no functions as keys)
 
 ## Why It Matters
@@ -49,6 +50,7 @@ Py:  v = m.get("key", default)  # .get() with default
 ## Common Interview Traps
 
 - **Nil map reads** return the zero value (no panic) -- but **nil map writes panic**
+- **ELI10:** Reading a missing key doesn't explode -- it just hands you an empty box and pretends everything is fine
 - Iteration order is **deliberately randomized** by the runtime
 - Maps are **not safe for concurrent access** -- use `sync.Mutex` or `sync.Map`
 - You cannot take the address of a map value: `&m["key"]` does not compile

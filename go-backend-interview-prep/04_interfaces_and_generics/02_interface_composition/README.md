@@ -3,6 +3,7 @@
 ## What It Is
 
 - Go interfaces can **embed** other interfaces to compose larger ones
+- **ELI10:** Composing interfaces is like stacking job requirements -- "must speak English AND drive" is two small interfaces combined.
 - This follows the "small interfaces" philosophy
 
 ## Why It Matters

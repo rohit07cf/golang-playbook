@@ -3,11 +3,13 @@
 ## What It Is
 
 - **DNS lookup**: `net.LookupHost` resolves a hostname to IP addresses
+- **ELI10:** DNS is the phone book of the internet -- you look up "google.com" and get back a number.
 - **Timeouts**: `http.Client{Timeout: ...}` and `net.DialTimeout` prevent hanging
 
 ## Why It Matters
 
 - Network calls without timeouts can hang forever -- a production killer
+- **ELI10:** A network call without a timeout is like waiting for a friend who might never show up -- set an alarm or you'll stand there all day.
 - Interviewers ask about timeout layers: DNS, connect, TLS, request, response
 
 ## Syntax Cheat Sheet

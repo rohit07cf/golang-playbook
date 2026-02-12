@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Context**: Go's `context.Context` carries deadlines, cancellation signals, and request-scoped values
+- **ELI10:** Context in HTTP is the "order ticket" -- it carries the deadline, cancellation signal, and request-scoped data.
 - Per-request timeouts prevent slow handlers from holding resources forever
 
 ## Why It Matters
 
 - Production servers must bound request duration -- unbounded requests leak goroutines and connections
+- **ELI10:** A request without a timeout is a worker who never clocks out -- eventually your whole team is stuck on zombie tasks.
 - Interviewers expect you to demonstrate context.WithTimeout and select on `ctx.Done()`
 
 ## Syntax Cheat Sheet

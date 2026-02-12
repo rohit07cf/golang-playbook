@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Big-O notation**: describes how an algorithm's time/space grows with input size
+- **ELI10:** Big-O is how fast your code gets worse as the input grows -- O(n2) is like inviting everyone to shake hands with everyone else.
 - **Hotspot**: the one function or loop where your program spends most of its time
 
 ## Why It Matters
 
 - Interviewers ask "what's the time complexity?" for nearly every coding question
+- **ELI10:** Without knowing Big-O, you're guessing why your program is slow -- like blaming the oven when the recipe is wrong.
 - Profiling always starts with finding the hotspot -- the 5% of code using 95% of time
 
 ## Syntax Cheat Sheet

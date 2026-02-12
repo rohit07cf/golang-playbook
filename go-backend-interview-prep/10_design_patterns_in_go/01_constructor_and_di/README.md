@@ -4,10 +4,12 @@
 
 - **Constructor**: a `NewXxx()` function that builds a struct with its dependencies wired in
 - **Dependency Injection (DI)**: passing dependencies as arguments instead of creating them internally
+- **ELI10:** DI is like bringing your own charger to a hotel room -- the room doesn't care what brand, as long as it fits the outlet.
 
 ## Why It Matters
 
 - DI makes code testable -- swap a real email sender for a fake in tests
+- **ELI10:** Without DI, your code is hardwired -- changing one lightbulb means rewiring the whole house.
 - Interviewers check whether you wire dependencies explicitly or hide them behind globals
 
 ## Syntax Cheat Sheet

@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - An HTTP service with request IDs, structured logging, latency tracking, and a `/metrics` endpoint
+- **ELI10:** Observability is putting dashcams in every car in your fleet -- when something crashes, you rewind the tape.
 - A toy observability layer using only the standard library
 
 ## Requirements

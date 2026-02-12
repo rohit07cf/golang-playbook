@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go's `error` is a built-in **interface**: `type error interface { Error() string }`
+- **ELI10:** Errors in Go are polite "something went wrong" notes. Panic is flipping the table.
 - Functions return errors as the **last return value**; callers check `if err != nil`
 
 ## Why It Matters
 
 - Every Go function that can fail returns an error -- no hidden exceptions
+- **ELI10:** Go makes you handle errors like a responsible adult -- no sweeping exceptions under the rug.
 - Interviewers expect you to explain why Go chose explicit error returns over try/catch
 
 ## Syntax Cheat Sheet

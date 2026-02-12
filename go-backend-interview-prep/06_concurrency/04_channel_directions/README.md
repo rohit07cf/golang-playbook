@@ -3,6 +3,7 @@
 ## What It Is
 
 - Go channels can be **directional**: `chan<- T` (send-only) or `<-chan T` (receive-only)
+- **ELI10:** Channel directions are "one-way street" signs -- a send-only channel means no peeking at incoming traffic
 - Functions declare which direction they need -- the compiler enforces it
 
 ## Why It Matters

@@ -3,6 +3,7 @@
 ## What It Is
 
 - **Fan-out**: multiple goroutines read from the same input channel (parallelism)
+- **ELI10:** Fan-out is handing copies of the exam to 10 graders. Fan-in is collecting all their scores into one pile.
 - **Fan-in**: multiple channels merge into one output channel
 - **Pipeline**: chained stages where each stage's output is the next stage's input
 

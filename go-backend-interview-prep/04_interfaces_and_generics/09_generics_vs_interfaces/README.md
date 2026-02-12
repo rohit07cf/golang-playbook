@@ -3,6 +3,7 @@
 ## What It Is
 
 - Two tools for polymorphism: interfaces (runtime dispatch) vs generics (compile-time)
+- **ELI10:** Interfaces say "I don't care what you are, just do this." Generics say "I'll work with anything, but tell me the type upfront."
 - Knowing when to use each is the key interview question
 
 ## Why It Matters

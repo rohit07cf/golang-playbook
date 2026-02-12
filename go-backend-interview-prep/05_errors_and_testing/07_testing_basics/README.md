@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go has a built-in testing framework: `testing` package + `go test` command
+- **ELI10:** A test is a robot that runs your code and screams if something breaks -- so you don't have to check manually.
 - Test files end in `_test.go`, test functions start with `Test` and take `*testing.T`
 
 ## Why It Matters
 
 - Every Go project uses `go test` -- interviewers expect you to write tests fluently
+- **ELI10:** Tests are your safety net -- refactor fearlessly because the robot catches your falls.
 - No external frameworks needed (unlike most other languages)
 
 ## Syntax Cheat Sheet

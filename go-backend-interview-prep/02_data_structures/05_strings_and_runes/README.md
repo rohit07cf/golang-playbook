@@ -3,6 +3,7 @@
 ## What It Is
 
 - Strings in Go are **immutable sequences of bytes**, UTF-8 encoded by default
+- **ELI10:** A string is a sealed envelope of bytes. A rune is the actual letter inside.
 - A `rune` is an alias for `int32` and represents a single Unicode code point
 
 ## Why It Matters

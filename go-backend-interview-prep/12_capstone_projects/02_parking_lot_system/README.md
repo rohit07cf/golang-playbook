@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - A classic LLD (Low-Level Design) interview problem: parking lot with multiple vehicle types
+- **ELI10:** The parking lot problem is just controlled chaos with rules -- vehicles come in, spots get assigned, money gets collected.
 - Clean architecture with domain entities, strategy pattern, repository pattern, and DI
 
 ## Requirements
@@ -37,6 +38,7 @@
 
 ## Design Patterns Used
 
+- **ELI10:** Strategy pattern here is like having multiple pricing plans -- same parking lot, different rates depending on the plan.
 - **Strategy**: PricingStrategy (hourly vs flat), SpotAllocationStrategy (nearest available)
 - **Repository**: ParkingRepo interface decouples service from storage
 - **Factory**: NewVehicle, NewTicket, CreateSpots -- factory functions for entities

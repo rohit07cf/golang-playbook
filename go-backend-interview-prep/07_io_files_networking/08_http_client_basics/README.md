@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go: `net/http` package provides `http.Get`, `http.Client`, request builders
+- **ELI10:** An HTTP client is your program making phone calls to other servers -- always set a timeout or you'll wait on hold forever.
 - Always set a **timeout** -- the default client has **no timeout**
 
 ## Why It Matters
 
 - Every backend service calls other services over HTTP
+- **ELI10:** A backend without an HTTP client is a hermit -- it can't talk to anyone else, and modern systems are all about talking.
 - Interviewers test timeout handling, headers, and response body closing
 
 ## Syntax Cheat Sheet

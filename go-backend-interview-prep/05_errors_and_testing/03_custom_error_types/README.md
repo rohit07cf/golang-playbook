@@ -3,6 +3,7 @@
 ## What It Is
 
 - Any struct that implements `Error() string` satisfies the `error` interface
+- **ELI10:** A custom error is like a doctor's diagnosis instead of "I feel bad" -- it carries specific, actionable information.
 - Custom errors carry **structured data** (status codes, field names, context)
 
 ## Why It Matters

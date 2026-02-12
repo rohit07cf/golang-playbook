@@ -3,11 +3,13 @@
 ## What It Is
 
 - `context.Context` carries **deadlines, cancellation signals, and values** across API boundaries
+- **ELI10:** Context is the "stop everything" button with a timer and a reason attached
 - Created with `context.WithCancel`, `WithTimeout`, `WithDeadline`, `WithValue`
 
 ## Why It Matters
 
 - Every production Go server uses context for request cancellation and timeouts
+- **ELI10:** Without context, cancelling a goroutine tree is like trying to stop a rumor -- good luck
 - Interviewers test whether you propagate context through function calls correctly
 
 ## Syntax Cheat Sheet

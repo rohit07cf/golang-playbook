@@ -3,6 +3,7 @@
 ## What It Is
 
 - **Wrapping**: `fmt.Errorf("context: %w", err)` adds context while preserving the original error
+- **ELI10:** Wrapping errors is like adding sticky notes to a package as it passes through departments -- each layer adds context.
 - **Unwrapping**: `errors.Is` and `errors.As` walk the error chain to find wrapped causes
 
 ## Why It Matters

@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - A toy API gateway that routes requests to downstream services
+- **ELI10:** An API gateway is the hotel front desk -- all guests check in here, get their room key, and get directed to the right floor.
 - Includes auth check, rate limiting, request ID injection, and timeout enforcement
 
 ## Requirements

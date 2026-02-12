@@ -6,6 +6,8 @@ A repeatable structure for answering any system design question in an interview.
 
 ## The 7-Step System Design Answer
 
+- **ELI10:** System design interviews are like being an architect -- the interviewer wants to see your blueprint, not watch you lay bricks.
+
 1. **Clarify requirements** -- ask 2-3 questions (scope, users, scale)
 2. **Define functional requirements** -- what the system must do (APIs, core features)
 3. **Define non-functional requirements** -- latency, throughput, availability, durability
@@ -18,6 +20,7 @@ A repeatable structure for answering any system design question in an interview.
 
 ## What Interviewers Actually Test
 
+- **ELI10:** Interviewers care more about how you think than what you build -- it is a thinking-out-loud exam.
 - **Structured thinking** -- can you break a vague problem into clear steps?
 - **Breadth** -- do you know the major building blocks (cache, queue, LB, DB)?
 - **Depth** -- can you deep-dive into one component with real detail?

@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go code is organized into **packages** -- every `.go` file declares one
+- **ELI10:** Packages are toolboxes -- you don't carry every tool everywhere, you grab the box you need and leave the rest in the garage.
 - **Exported** names start with an uppercase letter; lowercase = unexported (private)
 
 ## Why It Matters
 
 - Package design is central to Go project architecture
+- **ELI10:** Uppercase names are like items on a store shelf (anyone can grab them); lowercase names are in the back room (staff only).
 - The uppercase/lowercase visibility rule comes up in every interview
 
 ## Syntax Cheat Sheet

@@ -3,6 +3,7 @@
 ## What It Is
 
 - A **method** is a function with a special receiver argument
+- **ELI10:** A method is a function that's glued to a struct -- like a remote control that only works with one TV.
 - **Value receiver** `(r Rect)`: operates on a copy
 - **Pointer receiver** `(r *Rect)`: operates on the original
 
@@ -44,6 +45,7 @@ Py:  def area(self) -> float: return self.width * self.height
 ## Common Interview Traps
 
 - Value receiver: method gets a **copy** -- mutations are lost
+- **ELI10:** Value receiver = working on a photocopy. Pointer receiver = working on the original document.
 - Pointer receiver: method gets the **original** -- mutations persist
 - Go auto-takes address: `val.PointerMethod()` works (compiler adds `&`)
 - Convention: if any method needs a pointer receiver, make them all pointer receivers

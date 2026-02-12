@@ -3,11 +3,13 @@
 ## What It Is
 
 - An interface defines a set of method signatures
+- **ELI10:** An interface is a power outlet shape -- if your plug fits, it works. Nobody checks your brand.
 - Any type that implements those methods **implicitly** satisfies the interface
 
 ## Why It Matters
 
 - Go's polymorphism model -- no `implements` keyword, no inheritance
+- **ELI10:** Interfaces let you swap parts like LEGO bricks -- the code doesn't care which brick, as long as it clicks in.
 - "Accept interfaces, return concrete types" is the Go design mantra
 
 ## Syntax Cheat Sheet

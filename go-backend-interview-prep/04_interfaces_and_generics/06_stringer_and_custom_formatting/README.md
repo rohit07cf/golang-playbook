@@ -3,6 +3,7 @@
 ## What It Is
 
 - `fmt.Stringer` is an interface: `String() string`
+- **ELI10:** Stringer is like teaching your struct to introduce itself -- "Hi, I'm User{name: Alice}" instead of a memory dump.
 - Any type implementing it gets custom output from `fmt.Println`, `%v`, `%s`
 
 ## Why It Matters

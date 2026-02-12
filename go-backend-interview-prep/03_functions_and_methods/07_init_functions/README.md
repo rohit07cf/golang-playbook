@@ -3,11 +3,13 @@
 ## What It Is
 
 - `func init()` runs automatically when a package is loaded
+- **ELI10:** init() is the alarm clock that rings before main() wakes up -- it runs automatically, once, no questions asked.
 - No explicit call needed; runs before `main()`
 
 ## Why It Matters
 
 - Used for package-level setup (registering drivers, validating config)
+- **ELI10:** If your package needs the lights on before anyone walks in, init() flips the switch.
 - Interviewers test whether you know the execution order and pitfalls
 
 ## Syntax Cheat Sheet

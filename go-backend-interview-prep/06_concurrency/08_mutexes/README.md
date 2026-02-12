@@ -3,6 +3,7 @@
 ## What It Is
 
 - `sync.Mutex` provides **mutual exclusion** -- only one goroutine can hold the lock
+- **ELI10:** A mutex is the bathroom key at a gas station -- only one person at a time, everyone else waits in line
 - `sync.RWMutex` allows **multiple readers** OR **one writer** (read-write lock)
 
 ## Why It Matters
@@ -45,6 +46,7 @@ with lock:
 ## Common Interview Traps
 
 - **Forgetting to unlock**: always use `defer mu.Unlock()` right after Lock
+- **ELI10:** Forgetting to unlock a mutex is like walking away with the bathroom key -- everyone waits forever
 - **Copying a mutex**: `sync.Mutex` must not be copied (pass by pointer)
 - **Locking twice**: calling `Lock()` twice on the same Mutex in the same goroutine = deadlock
 - **RWMutex abuse**: don't use RWMutex if writes are frequent (RLock overhead)

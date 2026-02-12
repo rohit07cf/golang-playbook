@@ -3,11 +3,13 @@
 ## What It Is
 
 - Functions in Go are **values**: they can be assigned, passed, and returned
+- **ELI10:** First-class functions are like trading cards -- you can pass them around, store them, and play them whenever you want.
 - **Function types** define signatures that can be used as parameters
 
 ## Why It Matters
 
 - Enables callbacks, middleware, strategy pattern, and functional-style code
+- **ELI10:** Once you realize functions are just values, half of Go's design patterns suddenly make sense.
 - Understanding function types is key to reading Go standard library code
 
 ## Syntax Cheat Sheet

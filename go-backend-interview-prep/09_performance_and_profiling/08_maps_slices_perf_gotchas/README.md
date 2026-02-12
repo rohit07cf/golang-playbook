@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Slice preallocation**: using `make([]T, 0, n)` to avoid repeated growing and copying
+- **ELI10:** Preallocating is like reserving seats at a restaurant -- you don't want the waiter moving your table three times as more friends arrive.
 - **Map hints**: `make(map[K]V, n)` preallocates buckets; map growth is expensive
 
 ## Why It Matters
 
 - Slice/map growth triggers allocation + copy -- avoidable with known sizes
+- **ELI10:** Growing without preallocating is like buying a bigger box and repacking everything each time you get a new toy.
 - Interviewers test whether you know to preallocate and understand growth mechanics
 
 ## Syntax Cheat Sheet

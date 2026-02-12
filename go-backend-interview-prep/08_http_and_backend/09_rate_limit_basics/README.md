@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Rate limiting**: restricting how many requests a client can make in a time window
+- **ELI10:** Rate limiting is a turnstile at the subway -- it lets people through one at a time, no matter how big the crowd.
 - Common algorithms: token bucket, fixed window, sliding window
 
 ## Why It Matters
 
 - Prevents abuse, protects backend resources, ensures fair usage
+- **ELI10:** Without rate limiting, one greedy client can eat all the pizza before anyone else gets a slice.
 - Interviewers ask you to implement a simple rate limiter from scratch
 
 ## Syntax Cheat Sheet

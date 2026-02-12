@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - Three core reliability patterns in one demo: **retry with backoff**, **timeout**, and **circuit breaker**
+- **ELI10:** Retry is knocking again. Timeout is giving up after 10 seconds. Circuit breaker is putting a "closed" sign on the door.
 - Shows how failures propagate and how each pattern mitigates them
 
 ## Requirements

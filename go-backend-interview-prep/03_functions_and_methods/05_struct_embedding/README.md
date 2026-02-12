@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go uses **embedding** instead of inheritance: one struct includes another
+- **ELI10:** Embedding is like getting your parent's toolkit -- you didn't build the tools, but you can use them as if they're yours.
 - The embedded struct's methods are **promoted** to the outer struct
 
 ## Why It Matters
 
 - This is how Go does composition over inheritance
+- **ELI10:** Go skipped inheritance on purpose -- embedding gives you the useful parts without the family drama.
 - Interviewers test whether you understand promoted methods and field shadowing
 
 ## Syntax Cheat Sheet

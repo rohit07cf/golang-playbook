@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - An HTTP service that shortens URLs and resolves short codes back to the original
+- **ELI10:** A URL shortener is like a nickname -- "Alex" is easier to say than "Alexander Bartholomew III."
 - In-memory storage with basic collision handling
 
 ## Requirements

@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go's conditional branching -- similar to other languages
+- **ELI10:** if/else is your brain making a yes/no decision at a fork in the road -- left for "true," right for "false."
 - Unique feature: an **init statement** can precede the condition
 
 ## Why It Matters
 
 - The init-statement pattern is idiomatic Go (especially with error checks)
+- **ELI10:** The if-init pattern is like checking your ticket and walking through the gate in one motion -- no loose ticket floating around afterward.
 - Interviewers test whether you know about scoping in if-init
 
 ## Syntax Cheat Sheet

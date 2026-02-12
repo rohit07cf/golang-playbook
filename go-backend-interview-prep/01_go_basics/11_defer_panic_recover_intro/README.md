@@ -3,12 +3,14 @@
 ## What It Is
 
 - **defer**: schedules a function call to run when the enclosing function returns
+- **ELI10:** Defer is like stacking plates -- the last plate you put on is the first one you take off (LIFO). Panic is pulling the fire alarm. Recover is the fire extinguisher.
 - **panic**: crashes the program (like an unhandled exception)
 - **recover**: catches a panic, preventing the crash
 
 ## Why It Matters
 
 - `defer` is used everywhere for cleanup (closing files, unlocking mutexes)
+- **ELI10:** Defer is your responsible friend who always cleans up after the party, even if things go sideways.
 - Knowing when to use panic vs error return is a key interview signal
 
 ## Syntax Cheat Sheet

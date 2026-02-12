@@ -3,11 +3,13 @@
 ## What It Is
 
 - Two ways to declare variables: `var` and `:=` (short declaration)
+- **ELI10:** A variable is a labeled box -- `:=` lets Go guess what's inside from what you put in, while `var` makes you write the label yourself.
 - Every variable in Go has a **zero value** if not explicitly initialized
 
 ## Why It Matters
 
 - Zero values prevent uninitialized-variable bugs found in other languages
+- **ELI10:** Zero values mean every box starts with something sensible inside -- no opening a box and finding random garbage.
 - Knowing when to use `var` vs `:=` is a basic interview signal
 
 ## Syntax Cheat Sheet

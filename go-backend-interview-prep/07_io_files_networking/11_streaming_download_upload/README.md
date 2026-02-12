@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Streaming**: read data in chunks, write it as you go -- never load the whole thing into memory
+- **ELI10:** Streaming is drinking from a firehose -- you process water as it flows instead of filling a swimming pool first.
 - Go: `io.Copy(dst, resp.Body)` streams an HTTP response directly to a file
 
 ## Why It Matters
 
 - Downloading a 2 GB file with `io.ReadAll` would OOM your server
+- **ELI10:** Loading a huge file into memory is like trying to drink the ocean in one gulp -- stream it or you'll explode.
 - Interviewers test whether you understand memory-efficient data handling
 
 ## Syntax Cheat Sheet

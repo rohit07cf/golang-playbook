@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Repository**: an interface that abstracts data access (CRUD) behind a clean API
+- **ELI10:** Repository is your storage valet -- your service says "fetch my car" without caring which floor it is parked on.
 - Service layer calls the repository interface; implementation can be in-memory, SQL, or NoSQL
 
 ## Why It Matters
 
 - Decouples business logic from storage -- swap DB without touching services
+- **ELI10:** Without a repository, your business logic is tangled with database code -- like mixing your homework with your lunch.
 - Interviewers test whether you separate data access from business logic
 
 ## Syntax Cheat Sheet

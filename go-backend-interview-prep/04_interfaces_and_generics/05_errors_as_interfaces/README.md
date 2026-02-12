@@ -3,6 +3,7 @@
 ## What It Is
 
 - `error` is a built-in interface with one method: `Error() string`
+- **ELI10:** The error interface is just one method: Error() string. That's the whole contract -- even a string can be an error if it tries.
 - Any type that has `Error() string` is an error
 
 ## Why It Matters

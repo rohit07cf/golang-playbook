@@ -3,6 +3,7 @@
 ## What It Is
 
 - A testing pattern where test cases are defined as a **slice of structs** and iterated with `t.Run`
+- **ELI10:** Table-driven tests are a spreadsheet of "if I put this in, I should get that out" -- one loop tests them all.
 - Each struct holds inputs, expected output, and a descriptive name
 
 ## Why It Matters

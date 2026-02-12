@@ -3,11 +3,13 @@
 ## What It Is
 
 - `http.ListenAndServe(addr, handler)` starts a blocking HTTP server
+- **ELI10:** An HTTP server is a restaurant -- it waits for customers (requests), takes their order, and sends food (responses).
 - A **handler** is any function matching `func(w http.ResponseWriter, r *http.Request)`
 
 ## Why It Matters
 
 - Every Go backend starts here -- no framework needed
+- **ELI10:** Go's stdlib HTTP server is good enough for production -- you don't need a fancy framework to open a restaurant.
 - Interviewers expect you to build an HTTP server from scratch with `net/http`
 
 ## Syntax Cheat Sheet

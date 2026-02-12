@@ -3,11 +3,13 @@
 ## What It Is
 
 - `filepath.Join` builds OS-safe paths; `filepath.WalkDir` traverses directory trees
+- **ELI10:** filepath.Join is the adult way to build paths -- it handles slashes so you don't glue strings together like a caveman.
 - `os.MkdirTemp` / `os.MkdirAll` create temporary and nested directories
 
 ## Why It Matters
 
 - Hardcoded path separators break cross-platform code
+- **ELI10:** Building paths by hand is like giving directions with "turn left at the tree" -- it only works on one street. filepath.Join works everywhere.
 - Interviewers test file traversal and temp directory cleanup patterns
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Request parsing**: decoding JSON body, query params, and headers from an incoming HTTP request
+- **ELI10:** Parsing a request is like opening a letter and checking the sender wrote their address correctly.
 - **Validation**: checking required fields, types, and constraints before processing
 
 ## Why It Matters
 
 - Every API must reject malformed input with clear 400 errors
+- **ELI10:** Trusting user input without validation is like eating mystery food from a stranger -- always check before you swallow.
 - Interviewers test whether you validate early and return structured error responses
 
 ## Syntax Cheat Sheet

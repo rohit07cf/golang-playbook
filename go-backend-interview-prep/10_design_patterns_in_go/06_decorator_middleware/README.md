@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Decorator**: wraps an object to add behavior (logging, retry, rate limiting) without changing the original
+- **ELI10:** A decorator is like adding toppings to ice cream -- the ice cream doesn't change, but now it has sprinkles and a cherry.
 - In Go: a function that takes an interface and returns the same interface with added behavior
 
 ## Why It Matters
 
 - Every Go HTTP middleware uses this pattern: `func(http.Handler) http.Handler`
+- **ELI10:** Without decorators, adding logging means editing every function -- with decorators, you just wrap it like a gift.
 - Interviewers expect you to layer decorators without modifying the core implementation
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **TCP**: `net.Listen("tcp", addr)` on server, `net.Dial("tcp", addr)` on client
+- **ELI10:** TCP is a phone call -- both sides confirm every word. UDP is shouting into a crowd -- fast, but no guarantees.
 - **UDP**: same API but connectionless -- `net.ListenPacket` / `net.DialUDP`
 
 ## Why It Matters
 
 - Understanding TCP/UDP is essential for backend system design
+- **ELI10:** HTTP rides on top of TCP. If you don't understand TCP, you're driving a car without knowing it has an engine.
 - Interviewers ask about connection-oriented vs connectionless, read loops, graceful close
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **API key auth**: client sends a secret key in a header; server validates it before processing
+- **ELI10:** API key auth is a bouncer checking your wristband -- no band, no entry, no exceptions.
 - Simplest auth scheme -- good for internal services; not suitable for user-facing auth alone
 
 ## Why It Matters
 
 - Interviewers test whether you can write auth middleware that rejects unauthenticated requests
+- **ELI10:** Without auth, your API is a house with no locks -- anyone can walk in and rearrange the furniture.
 - Shows understanding of the handler chain: check auth first, then proceed
 
 ## Syntax Cheat Sheet

@@ -3,6 +3,7 @@
 ## What It Is
 
 - Common operations on slices that Go does not provide built-in (delete, insert, filter)
+- **ELI10:** Slice tricks are like origami -- same sheet of paper, folded differently
 - Patterns every Go developer uses regularly
 
 ## Why It Matters
