@@ -1,0 +1,4 @@
+first line of buffered IO sample
+second line -- bufio.Scanner reads this
+third line -- Python iterates with for-loop
+fourth line -- always flush your writer
