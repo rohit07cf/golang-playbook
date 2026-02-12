@@ -36,6 +36,10 @@ import _ "net/http/pprof"
 // Unexported (private): strings.indexFunc
 ```
 
+**Go vs Python**
+Go:  `import "fmt"                  // uppercase = exported`
+Py:  `import os                     # _prefix = private (convention)`
+
 ## What main.go Shows
 
 - Importing standard library packages
@@ -60,6 +64,10 @@ import _ "net/http/pprof"
 
 ```bash
 go run ./01_go_basics/12_packages_and_imports
+```
+
+```bash
+python ./01_go_basics/12_packages_and_imports/main.py
 ```
 
 ## TL;DR (Interview Summary)

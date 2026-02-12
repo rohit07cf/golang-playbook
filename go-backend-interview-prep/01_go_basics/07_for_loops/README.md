@@ -35,6 +35,10 @@ for index, char := range "hello" {
 }
 ```
 
+**Go vs Python**
+Go:  `for i := 0; i < n; i++ { }`
+Py:  `for i in range(n): ...`
+
 ## What main.go Shows
 
 - All three loop forms
@@ -59,6 +63,10 @@ for index, char := range "hello" {
 
 ```bash
 go run ./01_go_basics/07_for_loops
+```
+
+```bash
+python ./01_go_basics/07_for_loops/main.py
 ```
 
 ## TL;DR (Interview Summary)

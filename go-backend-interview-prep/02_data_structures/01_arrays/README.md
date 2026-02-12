@@ -30,6 +30,10 @@ fmt.Println(nums[0])
 fmt.Println(len(primes))      // 5
 ```
 
+**Go vs Python**
+Go:  var a [3]int              // fixed size, value type
+Py:  a = [0, 0, 0]            # list, dynamic, reference type
+
 ## What main.go Shows
 
 - Declaring arrays with different syntaxes
@@ -53,6 +57,10 @@ fmt.Println(len(primes))      // 5
 
 ```bash
 go run ./02_data_structures/01_arrays
+```
+
+```bash
+python ./02_data_structures/01_arrays/main.py
 ```
 
 ## TL;DR (Interview Summary)

@@ -22,6 +22,10 @@ func main() {        // entry point -- no args, no return
 }
 ```
 
+**Go vs Python**
+Go:  `fmt.Println("hello")`
+Py:  `print("hello")`
+
 ## What main.go Shows
 
 - A complete, minimal Go program that prints output
@@ -45,6 +49,10 @@ func main() {        // entry point -- no args, no return
 
 ```bash
 go run ./01_go_basics/01_hello_world
+```
+
+```bash
+python ./01_go_basics/01_hello_world/main.py
 ```
 
 ## TL;DR (Interview Summary)

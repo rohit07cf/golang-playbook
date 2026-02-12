@@ -31,6 +31,10 @@ var ch byte = 'A'       // alias for uint8
 var r rune = 'Z'        // alias for int32 (Unicode code point)
 ```
 
+**Go vs Python**
+Go:  `var x int = 42          // explicit, no implicit cast`
+Py:  `x: int = 42             # type hint, implicit casts allowed`
+
 ## What main.go Shows
 
 - Declaring and printing each basic type
@@ -54,6 +58,10 @@ var r rune = 'Z'        // alias for int32 (Unicode code point)
 
 ```bash
 go run ./01_go_basics/02_values_and_types
+```
+
+```bash
+python ./01_go_basics/02_values_and_types/main.py
 ```
 
 ## TL;DR (Interview Summary)

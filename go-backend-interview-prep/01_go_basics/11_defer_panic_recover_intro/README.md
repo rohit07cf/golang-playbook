@@ -32,6 +32,10 @@ defer func() {
 }()
 ```
 
+**Go vs Python**
+Go:  `defer f.Close()               // runs at function exit`
+Py:  `with open(f) as fh: ...       # context manager`
+
 ## What main.go Shows
 
 - Defer execution order (LIFO)
@@ -56,6 +60,10 @@ defer func() {
 
 ```bash
 go run ./01_go_basics/11_defer_panic_recover_intro
+```
+
+```bash
+python ./01_go_basics/11_defer_panic_recover_intro/main.py
 ```
 
 ## TL;DR (Interview Summary)

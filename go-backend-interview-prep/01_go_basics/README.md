@@ -4,6 +4,8 @@ Everything you need to write simple Go programs.
 This module covers the syntax, types, control flow, and functions
 that form the foundation of every Go program.
 
+Each example includes main.go + a Python equivalent main.py.
+
 After this module you can:
 
 - Declare variables and constants

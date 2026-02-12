@@ -4,6 +4,8 @@ How Go organizes and stores data in memory.
 This module covers the core data structures every Go program uses:
 arrays, slices, maps, strings, structs, and pointers.
 
+Each example includes main.go + a Python equivalent main.py.
+
 After this module you can:
 
 - Use arrays and slices correctly (and know the difference)

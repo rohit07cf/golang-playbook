@@ -30,6 +30,10 @@ np := new(int)     // *int, points to zero-value int (0)
 var q *int         // nil
 ```
 
+**Go vs Python**
+Go:  p := &x; *p = 100        // explicit pointer
+Py:  # no pointers; mutable objects use reference semantics
+
 ## What main.go Shows
 
 - Taking addresses and dereferencing
@@ -56,6 +60,10 @@ var q *int         // nil
 
 ```bash
 go run ./02_data_structures/07_pointers_intro
+```
+
+```bash
+python ./02_data_structures/07_pointers_intro/main.py
 ```
 
 ## TL;DR (Interview Summary)

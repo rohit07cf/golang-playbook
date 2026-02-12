@@ -32,6 +32,10 @@ fmt.Println(u1.Name)
 point := struct{ X, Y int }{10, 20}
 ```
 
+**Go vs Python**
+Go:  type User struct { Name string }
+Py:  @dataclass class User: name: str = ""
+
 ## What main.go Shows
 
 - Defining struct types and creating instances
@@ -58,6 +62,10 @@ point := struct{ X, Y int }{10, 20}
 
 ```bash
 go run ./02_data_structures/06_structs_intro
+```
+
+```bash
+python ./02_data_structures/06_structs_intro/main.py
 ```
 
 ## TL;DR (Interview Summary)

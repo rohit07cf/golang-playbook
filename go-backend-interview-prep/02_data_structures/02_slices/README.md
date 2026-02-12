@@ -35,6 +35,10 @@ var nilSlice []int          // nil, len=0, cap=0
 emptySlice := []int{}       // not nil, len=0, cap=0
 ```
 
+**Go vs Python**
+Go:  s := make([]int, 0, 10)  // len=0, cap=10
+Py:  s = []                    # no capacity concept
+
 ## What main.go Shows
 
 - Creating slices with literals, `make`, and slicing
@@ -60,6 +64,10 @@ emptySlice := []int{}       // not nil, len=0, cap=0
 
 ```bash
 go run ./02_data_structures/02_slices
+```
+
+```bash
+python ./02_data_structures/02_slices/main.py
 ```
 
 ## TL;DR (Interview Summary)

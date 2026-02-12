@@ -36,6 +36,10 @@ delete(m, "bob")
 len(m)
 ```
 
+**Go vs Python**
+Go:  v, ok := m["key"]        // comma-ok idiom
+Py:  v = m.get("key", default)  # .get() with default
+
 ## What main.go Shows
 
 - Creating, reading, writing, deleting map entries
@@ -61,6 +65,10 @@ len(m)
 
 ```bash
 go run ./02_data_structures/04_maps
+```
+
+```bash
+python ./02_data_structures/04_maps/main.py
 ```
 
 ## TL;DR (Interview Summary)
