@@ -3,11 +3,13 @@
 ## What It Is
 
 - Named blocks of code with typed parameters and return values
+- **ELI10:** A function is a vending machine -- you put coins in (arguments), press a button, and get a snack out (return value).
 - The basic unit of behavior in Go
 
 ## Why It Matters
 
 - Everything in Go revolves around functions -- even methods are functions with a receiver
+- **ELI10:** If Go were a restaurant, functions would be the recipes -- every dish (method) is just a recipe with a specific chef (receiver) assigned to it.
 - Knowing function signatures is essential for reading any Go code
 
 ## Syntax Cheat Sheet

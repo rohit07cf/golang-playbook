@@ -3,11 +3,13 @@
 ## What It Is
 
 - A function that calls itself with a smaller subproblem
+- **ELI10:** Recursion is opening a box that contains a smaller box that contains a smaller box... until you find the prize.
 - Requires a **base case** to stop and a **recursive case** to continue
 
 ## Why It Matters
 
 - Tree traversal, graph search, and divide-and-conquer all use recursion
+- **ELI10:** Half the cool algorithms in computer science are just recursion wearing a fancy hat.
 - Interviewers test whether you can identify base cases and avoid stack overflow
 
 ## Syntax Cheat Sheet

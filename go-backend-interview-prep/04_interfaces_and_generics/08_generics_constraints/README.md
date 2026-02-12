@@ -3,6 +3,7 @@
 ## What It Is
 
 - A **constraint** limits which types a type parameter accepts
+- **ELI10:** Constraints are the velvet rope at the club -- "You must be at least this comparable to enter this function."
 - Built-in: `any`, `comparable`. Custom: interface with type lists
 
 ## Why It Matters

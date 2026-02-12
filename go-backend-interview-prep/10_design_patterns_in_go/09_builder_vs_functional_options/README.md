@@ -4,10 +4,12 @@
 
 - **Builder**: step-by-step object construction with chained methods
 - **Functional options**: `WithXxx()` functions that modify a config -- the Go-idiomatic approach
+- **ELI10:** Functional options are like ordering coffee -- "I'll have a latte, with oat milk, extra shot, no foam" -- each option is optional.
 
 ## Why It Matters
 
 - Functional options is the #1 Go-specific design pattern interviewers ask about
+- **ELI10:** Without functional options, adding a new setting means changing the constructor for everyone -- with them, you just add a new topping to the menu.
 - It solves the "constructor with 10 optional params" problem cleanly
 
 ## Syntax Cheat Sheet

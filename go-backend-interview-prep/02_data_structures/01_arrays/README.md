@@ -3,6 +3,7 @@
 ## What It Is
 
 - Fixed-size, ordered collection of elements of the same type
+- **ELI10:** An array is a row of airport lockers -- fixed number, fixed size, no surprises
 - The size is part of the type: `[3]int` and `[5]int` are different types
 
 ## Why It Matters

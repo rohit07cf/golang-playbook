@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Middleware**: a function that wraps an HTTP handler, runs code before/after the actual handler
+- **ELI10:** Middleware is the security checkpoint at the airport -- every request passes through it before reaching the gate.
 - Go pattern: `func(next http.Handler) http.Handler` -- returns a new handler that calls `next`
 
 ## Why It Matters
 
 - Every production server uses middleware for logging, auth, CORS, panic recovery
+- **ELI10:** Without middleware you'd copy-paste the same logging/auth code into every handler -- middleware lets you write it once and wrap everything.
 - Interviewers expect you to explain the chain pattern and write one from scratch
 
 ## Syntax Cheat Sheet

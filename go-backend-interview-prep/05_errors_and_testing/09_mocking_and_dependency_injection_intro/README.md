@@ -4,6 +4,7 @@
 
 - **Dependency injection**: pass dependencies (interfaces) into functions/structs instead of hard-coding them
 - **Mocking**: create a fake implementation of an interface for testing
+- **ELI10:** Mocking is hiring a stunt double -- looks like the real thing, but it's safe and predictable. DI is like bringing your own charger to a hotel -- the room doesn't care what brand, as long as it fits the outlet.
 
 ## Why It Matters
 

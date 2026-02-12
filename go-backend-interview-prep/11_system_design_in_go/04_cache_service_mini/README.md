@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - An in-memory cache with TTL (time-to-live) expiration
+- **ELI10:** A cache is the sticky note on your desk -- faster than digging through the filing cabinet every time.
 - Simple LRU-style eviction when cache reaches max capacity
 
 ## Requirements

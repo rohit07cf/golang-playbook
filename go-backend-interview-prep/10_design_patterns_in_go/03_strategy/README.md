@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Strategy**: define a family of algorithms (interfaces), encapsulate each one, and swap them at runtime
+- **ELI10:** Strategy pattern is swapping the engine in a car -- same car, different speed, just unbolt and replace.
 - In Go: an interface with one method; each strategy is a struct implementing that interface
 
 ## Why It Matters
 
 - Eliminates long if/else or switch chains for choosing behavior
+- **ELI10:** Without strategy, adding a new algorithm means surgery on a giant if/else -- with strategy, you just plug in a new piece.
 - Interviewers test whether you can decouple algorithm selection from usage
 
 ## Syntax Cheat Sheet

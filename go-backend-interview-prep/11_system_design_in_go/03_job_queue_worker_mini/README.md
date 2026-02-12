@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - A producer that pushes jobs into a queue
+- **ELI10:** A job queue is the ticket dispenser at the deli counter -- take a number, wait your turn, get served.
 - A worker pool that consumes and processes jobs concurrently with backpressure
 
 ## Requirements

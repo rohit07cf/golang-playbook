@@ -3,11 +3,13 @@
 ## What It Is
 
 - **pprof**: Go's built-in profiling tool -- collects CPU samples showing where time is spent
+- **ELI10:** CPU profiling is an X-ray for your program -- it shows you exactly which function is hogging all the brainpower.
 - **cProfile**: Python's stdlib profiler -- counts function calls and cumulative time
 
 ## Why It Matters
 
 - Benchmarks tell you HOW FAST; profiling tells you WHERE the time goes
+- **ELI10:** Without profiling, optimizing is like fixing a car blindfolded -- you might tighten the wrong bolt.
 - Interviewers expect you to know the pprof workflow: collect, analyze, optimize
 
 ## Syntax Cheat Sheet

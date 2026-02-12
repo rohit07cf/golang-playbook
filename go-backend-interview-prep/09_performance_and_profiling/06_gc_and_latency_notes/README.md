@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Go's GC**: concurrent, tri-color mark-and-sweep with very short stop-the-world (STW) pauses
+- **ELI10:** The garbage collector is the office janitor -- works quietly, but if there is too much trash, everyone notices the delay.
 - **Python's GC**: reference counting (immediate) + cyclic garbage collector (periodic)
 
 ## Why It Matters
 
 - GC pauses can cause latency spikes in real-time services
+- **ELI10:** If your janitor has to stop everyone to clean up, your service freezes -- reducing trash means fewer interruptions.
 - Interviewers ask "how does Go's GC work?" and "how do you reduce GC pressure?"
 
 ## Syntax Cheat Sheet

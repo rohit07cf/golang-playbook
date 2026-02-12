@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Request ID**: a unique identifier (UUID or random hex) attached to every request for tracing
+- **ELI10:** A request ID is a tracking number -- when something breaks, you follow it through the logs like a detective.
 - **Structured logging**: log lines that include request ID, method, path, status, duration
 
 ## Why It Matters
 
 - Without request IDs, correlating logs across services is impossible
+- **ELI10:** Logs without request IDs are like a pile of unsorted mail -- you can't tell which letter belongs to which conversation.
 - Interviewers expect you to show middleware that injects a request ID into context and logs
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Observer**: objects subscribe to events; when an event fires, all subscribers are notified
+- **ELI10:** Observer is a newsletter subscription -- you sign up once and get notified whenever something happens.
 - In Go: an event bus holds a list of handler functions; `Publish()` calls them all
 
 ## Why It Matters
 
 - Decouples the publisher from subscribers: adding a new reaction requires zero publisher changes
+- **ELI10:** Without observer, the sender must know everyone who cares -- with observer, it just shouts into a megaphone and listeners tune in.
 - Interviewers test event-driven thinking for microservices and async workflows
 
 ## Syntax Cheat Sheet

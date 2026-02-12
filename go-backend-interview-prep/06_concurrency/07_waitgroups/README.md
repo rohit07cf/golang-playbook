@@ -3,6 +3,7 @@
 ## What It Is
 
 - `sync.WaitGroup` blocks until a set of goroutines finish
+- **ELI10:** WaitGroup is a headcount -- "I sent 5 people out, I'm not leaving until all 5 check back in"
 - Three methods: `Add(n)`, `Done()`, `Wait()`
 
 ## Why It Matters
@@ -41,6 +42,7 @@ for t in threads: t.join()  # wait for all
 ## Common Interview Traps
 
 - **Add before go**: call `wg.Add(1)` **before** launching the goroutine, not inside it
+- **ELI10:** Calling wg.Add() inside the goroutine is like counting people after they already left the building
 - **Passing WaitGroup by value**: always pass `*sync.WaitGroup` (pointer), not a copy
 - **Negative counter**: calling `Done()` more than `Add()` panics
 - **WaitGroup vs channel**: WaitGroup = "wait for all"; channel = "communicate results"

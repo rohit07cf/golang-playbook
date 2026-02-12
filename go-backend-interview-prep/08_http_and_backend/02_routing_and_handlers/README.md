@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Routing**: mapping URL paths + HTTP methods to handler functions
+- **ELI10:** A router is the receptionist -- "You want /users? Door 2. You want /orders? Door 5."
 - Go 1.22+ `ServeMux` supports `GET /items/{id}` path patterns; older versions need manual checks
 
 ## Why It Matters
 
 - Every backend interview expects you to wire up routes correctly
+- **ELI10:** Without routing, every request goes to the same place -- like a building with one room and no signs.
 - Interviewers check whether you handle method restrictions and 404s cleanly
 
 ## Syntax Cheat Sheet

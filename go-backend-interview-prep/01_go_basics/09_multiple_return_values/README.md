@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go functions can return two or more values
+- **ELI10:** Multiple returns are like a doctor visit -- you get the diagnosis AND the bill at the same time, no separate trips.
 - The most common pattern: `(result, error)`
 
 ## Why It Matters
 
 - This is how Go handles errors -- no exceptions, no try/catch
+- **ELI10:** Instead of throwing a tantrum (exception), Go hands you a calm note saying "here is what went wrong" right next to the answer.
 - Interviewers expect you to know the `(value, error)` pattern cold
 
 ## Syntax Cheat Sheet

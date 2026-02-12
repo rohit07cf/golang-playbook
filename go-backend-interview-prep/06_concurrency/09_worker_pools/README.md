@@ -3,11 +3,13 @@
 ## What It Is
 
 - A **worker pool** is a fixed number of goroutines reading jobs from a shared channel
+- **ELI10:** A worker pool is 5 cashiers at a grocery store instead of spawning 500 random people at checkout
 - Pattern: N workers consume from a jobs channel, send results to a results channel
 
 ## Why It Matters
 
 - Bounds concurrency -- prevents launching a million goroutines at once
+- **ELI10:** Without a pool, you'd hire a new cashier for every customer -- your store would run out of space
 - This is one of the **most asked** Go concurrency patterns in interviews
 
 ## Syntax Cheat Sheet

@@ -3,6 +3,7 @@
 ## What It Is
 
 - `time.After(d)` returns a channel that sends after duration `d` (one-shot)
+- **ELI10:** A timeout is a kitchen timer -- when it dings, you stop waiting and move on, even if the food isn't ready
 - `time.NewTimer(d)` is a reusable one-shot; `time.NewTicker(d)` fires repeatedly
 
 ## Why It Matters

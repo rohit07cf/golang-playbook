@@ -3,6 +3,7 @@
 ## What It Is
 
 - `defer` schedules a function call to run when the enclosing function returns
+- **ELI10:** Defer for cleanup is like always putting your tools back in the shed before going home -- even if it rained.
 - Used for **cleanup**: closing files, releasing locks, recovering from panics
 
 ## Why It Matters

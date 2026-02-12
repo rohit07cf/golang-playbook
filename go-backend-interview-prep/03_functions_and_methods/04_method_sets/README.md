@@ -3,12 +3,14 @@
 ## What It Is
 
 - The **method set** of a type determines which interfaces it satisfies
+- **ELI10:** Method sets are the guest list -- a pointer has VIP access to all methods, a value only gets into the value-receiver party.
 - `T` has methods with value receivers only
 - `*T` has methods with both value and pointer receivers
 
 ## Why It Matters
 
 - This determines whether you can assign a value or pointer to an interface variable
+- **ELI10:** Get this wrong and the compiler slams the door in your face -- no explanation, just "does not implement."
 - One of the trickiest Go concepts and a favorite interview topic
 
 ## Syntax Cheat Sheet

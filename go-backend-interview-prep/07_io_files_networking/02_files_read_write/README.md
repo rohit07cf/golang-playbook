@@ -3,11 +3,13 @@
 ## What It Is
 
 - `os.ReadFile` / `os.WriteFile` for small files (loads entire content)
+- **ELI10:** Reading a file is opening a book. Writing a file is scribbling in a notebook. Always close the cover when you're done.
 - `os.Open` + `os.Create` for streaming or controlled access
 
 ## Why It Matters
 
 - File IO is a basic backend skill -- config files, logs, data import/export
+- **ELI10:** Leaving a file open is like leaving the fridge door open -- eventually you run out of resources and everything breaks.
 - Interviewers test whether you always close files and check errors
 
 ## Syntax Cheat Sheet

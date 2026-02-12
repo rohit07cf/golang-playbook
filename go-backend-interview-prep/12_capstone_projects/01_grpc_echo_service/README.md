@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - A minimal gRPC service with one RPC: `Echo(EchoRequest) returns (EchoResponse)`
+- **ELI10:** gRPC is a strict contract phone call -- both sides agree on exactly what words mean before anyone speaks.
 - Server + client in Go, conceptual Python equivalent
 
 ## Requirements
@@ -61,6 +62,7 @@
 - **gRPC vs REST** -- gRPC is faster and typed, but harder to debug (binary protocol)
 - **Unary vs streaming** -- unary is simpler; streaming adds complexity but handles real-time data
 - **Protobuf vs JSON** -- protobuf is smaller/faster but not human-readable
+- **ELI10:** Protobuf vs JSON is like Morse code vs English -- one is compact and fast, the other is human-friendly.
 - **Code generation** -- ensures type safety but adds a build step
 
 ## Run It

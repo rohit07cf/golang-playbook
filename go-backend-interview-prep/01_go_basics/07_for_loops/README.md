@@ -3,11 +3,13 @@
 ## What It Is
 
 - `for` is the **only** loop keyword in Go
+- **ELI10:** Go has one loop keyword because `for` is a Swiss Army knife -- it does while, do-while, and foreach all by itself.
 - Three forms: C-style, while-style, and infinite
 
 ## Why It Matters
 
 - Interviewers expect you to know there is no `while` or `do-while`
+- **ELI10:** Why memorize three different loop words when one word with three outfits does the job? That is Go's philosophy in a nutshell.
 - Understanding the three forms covers all looping needs
 
 ## Syntax Cheat Sheet

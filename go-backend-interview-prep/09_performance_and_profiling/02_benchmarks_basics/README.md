@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Go benchmarks**: functions starting with `Benchmark` in `_test.go` files, using `testing.B`
+- **ELI10:** A benchmark is a stopwatch race for your functions -- run them a million times and crown the winner.
 - **Python timeit**: stdlib module that runs a statement many times and reports average time
 
 ## Why It Matters
 
 - Interviewers expect you to know how to measure performance properly (not with `time.Now()`)
+- **ELI10:** Without benchmarks, "I think it's faster" is just a guess -- benchmarks turn opinions into facts.
 - `-benchmem` reveals allocations-per-op -- the metric that matters most for Go optimization
 
 ## Syntax Cheat Sheet

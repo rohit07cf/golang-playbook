@@ -3,6 +3,7 @@
 ## What It Is
 
 - Go benchmarks use `testing.B` and run with `go test -bench=.`
+- **ELI10:** A benchmark is a stopwatch for your code -- run it a million times and see who's fastest.
 - The framework adjusts `b.N` automatically to get stable timing
 
 ## Why It Matters

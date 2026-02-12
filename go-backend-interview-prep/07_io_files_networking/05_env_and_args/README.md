@@ -3,11 +3,13 @@
 ## What It Is
 
 - `os.Args` gives raw command-line arguments; `flag` package parses typed flags
+- **ELI10:** Environment variables are the sticky notes on your monitor -- the program reads them on startup, no questions asked.
 - `os.Getenv` / `os.LookupEnv` read environment variables
 
 ## Why It Matters
 
 - Every backend service reads config from env vars or CLI flags
+- **ELI10:** CLI args are what you shout at the program when you launch it; env vars are what the room already knows before it walks in.
 - Interviewers ask about 12-factor app config (env vars > files)
 
 ## Syntax Cheat Sheet

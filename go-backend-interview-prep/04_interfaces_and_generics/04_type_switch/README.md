@@ -3,6 +3,7 @@
 ## What It Is
 
 - A `switch` statement that branches on the **concrete type** of an interface value
+- **ELI10:** A type switch is like airport customs -- "What are you? Passport? String? Int? Step this way."
 - Cleaner than chaining multiple type assertions
 
 ## Why It Matters

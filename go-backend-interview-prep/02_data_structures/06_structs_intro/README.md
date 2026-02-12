@@ -3,6 +3,7 @@
 ## What It Is
 
 - A struct is a composite type that groups named fields together
+- **ELI10:** A struct is a custom form you designed -- Name here, Age there, no extra fields allowed
 - Go's version of classes -- but with no inheritance
 
 ## Why It Matters

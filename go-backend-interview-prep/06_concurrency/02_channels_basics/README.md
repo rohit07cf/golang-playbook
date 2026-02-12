@@ -3,6 +3,7 @@
 ## What It Is
 
 - A **channel** is a typed conduit for sending and receiving values between goroutines
+- **ELI10:** A channel is a conveyor belt in a factory -- workers don't shout across the room, they drop boxes on the belt
 - Created with `make(chan T)` -- unbuffered by default (send blocks until receiver is ready)
 
 ## Why It Matters
@@ -41,6 +42,7 @@ val = q.get()  # blocks until item available
 ## Common Interview Traps
 
 - **Send on closed channel panics**: only the sender should close
+- **ELI10:** Sending to a channel with no receiver is like leaving a package at a door that nobody opens -- you'll wait forever
 - **Receive on closed channel returns zero value**: use comma-ok `v, ok := <-ch`
 - **Unbuffered = synchronous**: send blocks until someone receives
 - **Forgetting to close**: `range ch` blocks forever if channel isn't closed

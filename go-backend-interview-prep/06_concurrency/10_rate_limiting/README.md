@@ -3,6 +3,7 @@
 ## What It Is
 
 - **Rate limiting** controls how often an operation can happen (e.g., 5 requests/second)
+- **ELI10:** Rate limiting is a bouncer counting how many people enter per minute -- too fast and the door stays shut
 - Two patterns: **ticker-based** (fixed interval) and **token bucket** (burst-friendly)
 
 ## Why It Matters

@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Adapter**: wraps a third-party or legacy API to match your internal interface
+- **ELI10:** An adapter is the travel plug converter -- your European plug doesn't fit American outlets, but the adapter makes it work.
 - The adapter translates between two incompatible interfaces
 
 ## Why It Matters
 
 - Third-party APIs change -- an adapter isolates the blast radius to one file
+- **ELI10:** Without an adapter, a third-party API change breaks your whole app -- with one, you just swap the converter.
 - Interviewers test whether you can decouple your code from external dependencies
 
 ## Syntax Cheat Sheet

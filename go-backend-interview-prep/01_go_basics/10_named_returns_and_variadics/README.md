@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Named returns**: return values with names, initialized to zero values
+- **ELI10:** Variadics are like an "all you can eat" buffet parameter -- pass one item, five items, or zero, and the function happily takes them all.
 - **Variadics**: functions that accept a variable number of arguments (`...`)
 
 ## Why It Matters
 
 - Named returns appear in standard library code -- you must read them
+- **ELI10:** Named returns are like pre-labeled shipping boxes -- the labels are already on them, so at the end you just say "ship it" without specifying what goes where.
 - Variadics are how `fmt.Println` and `append` work
 
 ## Syntax Cheat Sheet

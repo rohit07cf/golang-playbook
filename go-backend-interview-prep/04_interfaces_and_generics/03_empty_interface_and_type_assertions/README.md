@@ -3,6 +3,7 @@
 ## What It Is
 
 - `any` (alias for `interface{}`) accepts a value of **any type**
+- **ELI10:** interface{} is a box that accepts anything -- but you have to open it and check what's inside before using it.
 - A **type assertion** extracts the concrete type from an interface value
 
 ## Why It Matters
@@ -40,6 +41,7 @@ Py:  v: object = "hello"; s = v if isinstance(v, str) else None
 ## Common Interview Traps
 
 - Single-value assertion `v.(T)` **panics** if the type is wrong
+- **ELI10:** Type assertion without the comma-ok is like opening a mystery box with your eyes closed -- it might blow up.
 - Always use comma-ok form: `val, ok := v.(T)`
 - `any` gives up all type safety -- you must assert to get it back
 - `any` is just `interface{}` with a new name (Go 1.18+)

@@ -3,6 +3,7 @@
 ## What It Is
 
 - Go's `encoding/json` package marshals (struct -> JSON) and unmarshals (JSON -> struct)
+- **ELI10:** JSON encoding is packing a suitcase with labels. Decoding is unpacking it and putting things in the right drawers.
 - **Struct tags** control the JSON field names and behavior
 
 ## Why It Matters

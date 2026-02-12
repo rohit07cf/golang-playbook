@@ -3,6 +3,7 @@
 ## What It Is
 
 - A **buffered channel** has a capacity: `make(chan T, size)`
+- **ELI10:** A buffered channel is a conveyor belt with shelf space -- you can drop off a few boxes even if nobody's picked them up yet
 - Sends only block when the buffer is **full**; receives block when it's **empty**
 
 ## Why It Matters

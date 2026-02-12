@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Ports**: interfaces that define how the core talks to the outside world (sender, repository)
+- **ELI10:** Your business logic lives in the castle. Ports are the gates. Adapters are the drawbridges that connect to the outside world.
 - **Adapters**: concrete implementations of those interfaces (email adapter, postgres adapter)
 
 ## Why It Matters
 
 - Core business logic depends only on ports (interfaces) -- fully testable, swappable
+- **ELI10:** If the castle never touches the outside directly, you can swap the drawbridge without rebuilding the throne room.
 - Interviewers ask about clean architecture to test your separation-of-concerns thinking
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go is statically typed -- every value has a fixed type at compile time
+- **ELI10:** Go's type system is like labeled jars in the kitchen -- you can't put jam in the "pickles" jar, and the compiler is the parent who checks.
 - Basic types: `int`, `float64`, `bool`, `string`, `byte`, `rune`
 
 ## Why It Matters
 
 - Type mismatches are caught at compile time, not at runtime
+- **ELI10:** Catching type mistakes before the program runs is like spell-check before you send the email -- way less embarrassing.
 - Understanding types prevents subtle bugs with numeric overflow and precision
 
 ## Syntax Cheat Sheet

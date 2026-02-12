@@ -3,11 +3,13 @@
 ## What It Is
 
 - Generics let you write functions and types that work with **any type** while keeping type safety
+- **ELI10:** Generics let you write one recipe that works for pasta, rice, or noodles -- without rewriting the cookbook.
 - Added in Go 1.18 -- uses type parameters in square brackets `[T any]`
 
 ## Why It Matters
 
 - Eliminates duplicate code for different types (before generics: copy-paste or `any`)
+- **ELI10:** Before generics, you wrote the same function three times or used interface{} and prayed.
 - Interviewers test whether you know the syntax and when to reach for generics
 
 ## Syntax Cheat Sheet

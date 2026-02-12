@@ -3,6 +3,7 @@
 ## What It Is
 
 - `defer` schedules a function call to run when the enclosing function returns
+- **ELI10:** Defer is your "note to self: clean up before leaving" -- Go runs them in reverse order, like unstacking dishes.
 - This is a deeper look: loop traps, argument evaluation, and production patterns
 
 ## Why It Matters
@@ -40,6 +41,7 @@ Py:  with open(path) as f: ...       # context manager closes on exit
 ## Common Interview Traps
 
 - Defer args evaluated **at the defer statement**, not at function exit
+- **ELI10:** Deferred functions capture arguments at the time of the defer call, not when they run -- like a photo taken now, developed later.
 - Defer in a loop: resources pile up and are only released when the function returns
 - Fix: extract the loop body into a helper function so defer runs per iteration
 - Deferred functions run even if the function panics

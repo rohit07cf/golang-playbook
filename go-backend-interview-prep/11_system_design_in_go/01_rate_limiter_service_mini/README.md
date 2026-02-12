@@ -3,6 +3,7 @@
 ## What We Are Building
 
 - An HTTP service with a `GET /ping` endpoint
+- **ELI10:** A rate limiter is a bouncer counting heads at the door -- too many per minute and the velvet rope goes up.
 - Middleware enforces **per-client rate limiting** using a token bucket algorithm
 
 ## Requirements

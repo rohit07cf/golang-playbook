@@ -3,6 +3,7 @@
 ## What It Is
 
 - **panic**: immediately stops normal execution, unwinds the stack, runs deferred functions
+- **ELI10:** Panic is the fire alarm. Recover is the fire extinguisher. Errors are the polite "please exit through the side door."
 - **recover**: called inside a deferred function to catch a panic and resume normally
 - **errors**: the normal way to signal expected failures
 
@@ -40,6 +41,7 @@ def risky_op() -> None:
 ## Common Interview Traps
 
 - **Using panic for user input errors**: panic is for bugs, not validation
+- **ELI10:** Using panic for normal errors is like calling 911 because you ran out of milk.
 - **Recovering in the wrong function**: `recover()` only works in a **deferred** function
 - **Panics cross goroutine boundaries**: an unrecovered panic in a goroutine crashes the program
 - **Returning after recover**: the function returns the zero value unless you set it in defer

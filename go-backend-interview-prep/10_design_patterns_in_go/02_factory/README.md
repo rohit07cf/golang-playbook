@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Factory function**: returns an interface based on a configuration value (string, enum, config)
+- **ELI10:** A factory is a vending machine for objects -- press "email" and out pops an EmailSender, press "sms" and out pops an SMSSender.
 - The caller gets an interface back -- doesn't know or care which concrete type it is
 
 ## Why It Matters
 
 - Factories centralize creation logic: add a new sender type without changing callers
+- **ELI10:** Without a factory, every caller builds objects themselves -- that's like every restaurant guest cooking their own meal.
 - Interviewers check whether you can decouple object creation from usage
 
 ## Syntax Cheat Sheet

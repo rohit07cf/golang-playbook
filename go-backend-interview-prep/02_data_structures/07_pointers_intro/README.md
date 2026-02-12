@@ -3,11 +3,13 @@
 ## What It Is
 
 - A pointer holds the **memory address** of a value
+- **ELI10:** A pointer is a sticky note that says "the real data is in locker 42" -- it doesn't hold the data, just the address
 - `&` gets the address; `*` dereferences (reads the value at that address)
 
 ## Why It Matters
 
 - Pointers let you modify the original value (not a copy) across function calls
+- **ELI10:** Without pointers, Go copies everything like a photocopier -- sometimes you need to hand over the original document
 - Critical for efficient struct passing and understanding Go's memory model
 
 ## Syntax Cheat Sheet

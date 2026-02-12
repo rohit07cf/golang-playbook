@@ -3,6 +3,7 @@
 ## What It Is
 
 - `select` waits on **multiple channel operations** simultaneously
+- **ELI10:** Select is a waiter watching multiple tables -- whoever raises their hand first gets served
 - Like a `switch` but for channels -- whichever is ready first wins
 
 ## Why It Matters
@@ -39,6 +40,7 @@ default:           fmt.Println("nothing ready")
 ## Common Interview Traps
 
 - **Random selection**: if multiple cases are ready, Go picks one **randomly**
+- **ELI10:** Select with no default blocks forever if no channel is ready -- your waiter falls asleep
 - **Default makes it non-blocking**: without `default`, select blocks until a case is ready
 - **Nil channels are ignored**: a nil channel in select is never ready (useful for disabling cases)
 - **Empty select blocks forever**: `select {}` is a permanent block (used in long-running servers)

@@ -3,11 +3,13 @@
 ## What It Is
 
 - The smallest runnable Go program
+- **ELI10:** Your first Go program is like a baby's first word -- it doesn't do much, but it proves everything is wired up correctly.
 - Demonstrates the entry point: `package main` + `func main()`
 
 ## Why It Matters
 
 - Every Go executable must have `package main` and `func main()`
+- **ELI10:** Without `package main` and `func main()`, your program is like a car with no ignition -- all the parts are there, but nothing starts.
 - Understanding this is step zero for writing any Go code
 
 ## Syntax Cheat Sheet

@@ -3,11 +3,13 @@
 ## What It Is
 
 - An anonymous function that captures variables from its enclosing scope
+- **ELI10:** A closure is a backpack that remembers what you packed even after you leave the room.
 - The captured variables persist as long as the closure exists
 
 ## Why It Matters
 
 - Closures are used everywhere: callbacks, goroutines, functional patterns
+- **ELI10:** If you don't understand closures, half of Go's concurrency patterns look like magic tricks with no explanation.
 - The loop-variable capture trap is one of the most common Go interview questions
 
 ## Syntax Cheat Sheet
@@ -42,6 +44,7 @@ Py:  fn = lambda x: x * 2
 ## Common Interview Traps
 
 - Closures capture variables **by reference**, not by value
+- **ELI10:** Closures in loops are tricky -- every goroutine grabs the same backpack unless you give each one a copy.
 - Classic bug: capturing loop variable `i` -- all closures see the final value
 - Fix: pass the variable as a parameter to create a local copy
 - Go 1.22+ changed `for` loop variable semantics (each iteration gets a new variable)

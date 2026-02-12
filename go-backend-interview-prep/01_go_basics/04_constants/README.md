@@ -3,11 +3,13 @@
 ## What It Is
 
 - Values fixed at compile time, declared with `const`
+- **ELI10:** A constant is like a tattoo -- once it's there, nobody can change it, so you better spell it right the first time.
 - `iota` is a built-in counter for creating enumerated constants
 
 ## Why It Matters
 
 - Constants prevent accidental mutation of config values
+- **ELI10:** Imagine if someone could silently change the value of pi in your math homework. Constants exist so nobody pulls that trick.
 - `iota` is idiomatic Go for enums -- interviewers expect you to know it
 
 ## Syntax Cheat Sheet

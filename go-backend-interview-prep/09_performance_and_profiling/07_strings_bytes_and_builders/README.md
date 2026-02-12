@@ -3,11 +3,13 @@
 ## What It Is
 
 - **strings.Builder**: efficient way to build strings in Go -- writes to an internal buffer, one alloc
+- **ELI10:** Concatenating strings in a loop is like rewriting the entire letter every time you add a word -- use strings.Builder instead.
 - **[]byte vs string**: strings are immutable in Go; converting between them copies data
 
 ## Why It Matters
 
 - String concatenation in loops is the #1 performance trap interviewers test
+- **ELI10:** Knowing about Builder is the difference between copying a whole book per page vs just adding a page to a binder.
 - Understanding `[]byte` vs `string` conversion cost prevents hidden allocations
 
 ## Syntax Cheat Sheet

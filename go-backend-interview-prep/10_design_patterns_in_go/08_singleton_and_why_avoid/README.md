@@ -3,11 +3,13 @@
 ## What It Is
 
 - **Singleton**: ensures only one instance of a type exists (Go: `sync.Once` + package-level var)
+- **ELI10:** A singleton is that one remote everyone fights over -- convenient until two people need it at the same time.
 - **Why avoid**: global state makes testing hard, hides dependencies, creates tight coupling
 
 ## Why It Matters
 
 - Interviewers ask "when would you use a singleton?" -- the best answer is "rarely"
+- **ELI10:** Singletons are like global variables in disguise -- everyone depends on them, and nobody can test in peace.
 - Knowing `sync.Once` is useful, but knowing when NOT to use singletons is more important
 
 ## Syntax Cheat Sheet

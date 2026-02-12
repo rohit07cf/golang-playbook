@@ -3,11 +3,13 @@
 ## What It Is
 
 - Go's multi-way branch statement
+- **ELI10:** Switch is a vending machine -- you press one button and get exactly one item. No accidentally dispensing everything below it.
 - Does **not** fall through by default (opposite of C/Java)
 
 ## Why It Matters
 
 - Cleaner than long if/else chains
+- **ELI10:** Without automatic fall-through, you will never accidentally order a sandwich AND a salad when you only wanted the sandwich.
 - No-fallthrough default is a common interview question
 
 ## Syntax Cheat Sheet

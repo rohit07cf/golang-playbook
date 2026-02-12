@@ -3,12 +3,14 @@
 ## What It Is
 
 - **Repository pattern**: an interface that abstracts data access; handlers depend on the interface, not the storage engine
+- **ELI10:** The repository pattern is a storage valet -- your service says "park this car" without caring if the garage uses SQLite, Postgres, or a pile of sticky notes.
 - Go: define a `Repository` interface, implement with in-memory map (or real DB via external driver)
 - Python: `sqlite3` is in the stdlib -- can demonstrate a real SQLite repo
 
 ## Why It Matters
 
 - Separating data access from business logic makes code testable and swappable
+- **ELI10:** If your handler talks directly to the database, swapping databases means rewriting everything. The repo pattern lets you swap the engine without rebuilding the car.
 - Interviewers ask: "how would you swap from SQLite to Postgres?" -- answer: swap the repo implementation
 
 ## Syntax Cheat Sheet

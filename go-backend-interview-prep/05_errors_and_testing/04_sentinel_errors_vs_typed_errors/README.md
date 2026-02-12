@@ -3,6 +3,7 @@
 ## What It Is
 
 - **Sentinel errors**: package-level `var ErrX = errors.New("...")` -- simple, named values
+- **ELI10:** A sentinel error is a "wanted poster" -- you compare by identity. A typed error is a medical report -- you check the details.
 - **Typed errors**: struct implementing `Error()` -- carries structured data
 
 ## Why It Matters

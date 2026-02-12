@@ -3,6 +3,7 @@
 ## What It Is
 
 - A dynamically-sized, flexible view into an underlying array
+- **ELI10:** A slice is a stretchy backpack -- it grows when you stuff more in, but sometimes it has to buy a bigger bag
 - The most commonly used data structure in Go
 
 ## Why It Matters
@@ -50,6 +51,7 @@ Py:  s = []                    # no capacity concept
 - A slice header is 3 fields: **pointer, length, capacity**
 - Sub-slicing shares the backing array -- modifying one affects the other
 - `append` returns a new slice header -- always reassign: `s = append(s, v)`
+- **ELI10:** Appending to a slice is like adding guests to a dinner table -- sometimes you need a whole new table
 - When `len == cap`, `append` allocates a new, larger backing array
 - `nil` slice and empty slice both have `len == 0` but `nil` slice is `== nil`
 - You cannot compare slices with `==` (except to `nil`)

@@ -3,11 +3,13 @@
 ## What It Is
 
 - `json.Marshal` converts a Go struct to JSON bytes; `json.Unmarshal` does the reverse
+- **ELI10:** JSON encoding is packing a suitcase with labels. Decoding is unpacking it and putting things in the right drawers.
 - Struct tags (`json:"name"`) control field names, omit-empty, and skip behavior
 
 ## Why It Matters
 
 - JSON is the lingua franca of web APIs -- every backend engineer marshals JSON daily
+- **ELI10:** If APIs are people talking, JSON is the common language they all agreed to speak.
 - Interviewers ask about struct tags, unexported fields, and omitempty behavior
 
 ## Syntax Cheat Sheet
