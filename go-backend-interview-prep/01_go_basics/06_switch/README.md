@@ -41,6 +41,10 @@ case 2:
 }
 ```
 
+**Go vs Python**
+Go:  `switch x { case 1, 2: ... }     // no fallthrough`
+Py:  `match x: case 1 | 2: ...        // structural pattern (3.10+)`
+
 ## What main.go Shows
 
 - Expression switch with multiple values per case
@@ -65,6 +69,10 @@ case 2:
 
 ```bash
 go run ./01_go_basics/06_switch
+```
+
+```bash
+python ./01_go_basics/06_switch/main.py
 ```
 
 ## TL;DR (Interview Summary)

@@ -119,7 +119,7 @@ These are the most commonly asked topics in Go backend interviews.
 - [x] `00_setup_and_workflow` -- Implemented
 - [x] `01_go_basics` -- Implemented (12 topics + quick revision)
 - [x] `02_data_structures` -- Implemented (8 topics + quick revision)
-- [ ] `03_functions_and_methods`
+- [x] `03_functions_and_methods` -- Implemented (8 topics + quick revision)
 - [ ] `04_interfaces_and_generics`
 - [ ] `05_errors_and_testing`
 - [ ] `06_concurrency`

@@ -31,6 +31,10 @@ err := json.Unmarshal(data, &u)
 data, _ := json.MarshalIndent(user, "", "  ")
 ```
 
+**Go vs Python**
+Go:  json.Marshal(user)           // struct tags control keys
+Py:  json.dumps(user_dict)        # dict keys are JSON keys
+
 ## What main.go Shows
 
 - Marshaling a struct to JSON with struct tags
@@ -57,6 +61,10 @@ data, _ := json.MarshalIndent(user, "", "  ")
 
 ```bash
 go run ./02_data_structures/08_json_basics
+```
+
+```bash
+python ./02_data_structures/08_json_basics/main.py
 ```
 
 ## TL;DR (Interview Summary)

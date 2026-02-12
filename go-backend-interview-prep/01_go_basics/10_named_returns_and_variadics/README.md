@@ -34,6 +34,10 @@ vals := []int{1, 2, 3}
 sum(vals...)   // spread operator
 ```
 
+**Go vs Python**
+Go:  `func sum(nums ...int) int     // variadic`
+Py:  `def sum_all(*nums: int) -> int  # *args`
+
 ## What main.go Shows
 
 - Named returns with naked return
@@ -58,6 +62,10 @@ sum(vals...)   // spread operator
 
 ```bash
 go run ./01_go_basics/10_named_returns_and_variadics
+```
+
+```bash
+python ./01_go_basics/10_named_returns_and_variadics/main.py
 ```
 
 ## TL;DR (Interview Summary)

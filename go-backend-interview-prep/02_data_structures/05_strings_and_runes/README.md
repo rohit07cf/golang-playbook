@@ -35,6 +35,10 @@ back  := string(runes)
 r := 'A'             // type: rune (int32)
 ```
 
+**Go vs Python**
+Go:  len("Go言語")    // 8 (bytes)
+Py:  len("Go言語")    # 4 (characters)
+
 ## What main.go Shows
 
 - The difference between byte length and rune count
@@ -60,6 +64,10 @@ r := 'A'             // type: rune (int32)
 
 ```bash
 go run ./02_data_structures/05_strings_and_runes
+```
+
+```bash
+python ./02_data_structures/05_strings_and_runes/main.py
 ```
 
 ## TL;DR (Interview Summary)

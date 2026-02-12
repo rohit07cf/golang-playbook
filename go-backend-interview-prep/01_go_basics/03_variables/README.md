@@ -30,6 +30,10 @@ var x, y int = 1, 2
 a, b := "hello", true
 ```
 
+**Go vs Python**
+Go:  `x := 10                 // short declaration, function only`
+Py:  `x = 10                  # just assign, works anywhere`
+
 ## What main.go Shows
 
 - All declaration styles side by side
@@ -54,6 +58,10 @@ a, b := "hello", true
 
 ```bash
 go run ./01_go_basics/03_variables
+```
+
+```bash
+python ./01_go_basics/03_variables/main.py
 ```
 
 ## TL;DR (Interview Summary)

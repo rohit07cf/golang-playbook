@@ -34,6 +34,10 @@ const (
 )
 ```
 
+**Go vs Python**
+Go:  `const Pi = 3.14         // compile-time, iota for enums`
+Py:  `PI = 3.14               # convention only, use IntEnum for enums`
+
 ## What main.go Shows
 
 - Simple constants, typed constants, and `iota` enums
@@ -57,6 +61,10 @@ const (
 
 ```bash
 go run ./01_go_basics/04_constants
+```
+
+```bash
+python ./01_go_basics/04_constants/main.py
 ```
 
 ## TL;DR (Interview Summary)

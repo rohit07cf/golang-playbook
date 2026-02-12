@@ -32,6 +32,10 @@ func log(msg string) {
 fn := func(x int) int { return x * 2 }
 ```
 
+**Go vs Python**
+Go:  `func add(a, b int) int { return a + b }`
+Py:  `def add(a: int, b: int) -> int: return a + b`
+
 ## What main.go Shows
 
 - Defining and calling basic functions
@@ -56,6 +60,10 @@ fn := func(x int) int { return x * 2 }
 
 ```bash
 go run ./01_go_basics/08_functions_intro
+```
+
+```bash
+python ./01_go_basics/08_functions_intro/main.py
 ```
 
 ## TL;DR (Interview Summary)

@@ -29,6 +29,10 @@ if val := compute(); val > threshold {
 // val does NOT exist here
 ```
 
+**Go vs Python**
+Go:  `if val := f(); val > 0 { }  // init statement`
+Py:  `if (val := f()) > 0: ...    # walrus operator (3.8+)`
+
 ## What main.go Shows
 
 - Basic if/else chains
@@ -53,6 +57,10 @@ if val := compute(); val > threshold {
 
 ```bash
 go run ./01_go_basics/05_control_flow_if_else
+```
+
+```bash
+python ./01_go_basics/05_control_flow_if_else/main.py
 ```
 
 ## TL;DR (Interview Summary)

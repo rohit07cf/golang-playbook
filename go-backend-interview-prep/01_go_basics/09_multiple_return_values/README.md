@@ -31,6 +31,10 @@ if err != nil {
 result, _ = divide(10, 2)
 ```
 
+**Go vs Python**
+Go:  `val, err := divide(10, 3)`
+Py:  `val, err = divide(10, 3)      # tuple unpacking`
+
 ## What main.go Shows
 
 - Returning two values from a function
@@ -55,6 +59,10 @@ result, _ = divide(10, 2)
 
 ```bash
 go run ./01_go_basics/09_multiple_return_values
+```
+
+```bash
+python ./01_go_basics/09_multiple_return_values/main.py
 ```
 
 ## TL;DR (Interview Summary)

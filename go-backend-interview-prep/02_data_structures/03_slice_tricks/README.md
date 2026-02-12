@@ -38,6 +38,10 @@ dst := make([]int, len(src))
 copy(dst, src)
 ```
 
+**Go vs Python**
+Go:  s = append(s[:i], s[i+1:]...)  // delete
+Py:  del s[i]                        # built-in
+
 ## What main.go Shows
 
 - Deleting an element (preserving and not preserving order)
@@ -64,6 +68,10 @@ copy(dst, src)
 
 ```bash
 go run ./02_data_structures/03_slice_tricks
+```
+
+```bash
+python ./02_data_structures/03_slice_tricks/main.py
 ```
 
 ## TL;DR (Interview Summary)
