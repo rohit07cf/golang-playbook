@@ -1,0 +1,3 @@
+Line one: hello from sample.txt
+Line two: Go and Python side by side
+Line three: the end
