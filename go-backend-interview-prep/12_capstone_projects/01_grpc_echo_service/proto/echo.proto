@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package echo;
+
+option go_package = "go-backend-interview-prep/12_capstone_projects/01_grpc_echo_service/go/generated/echopb";
+
+// EchoService demonstrates a simple unary RPC.
+service EchoService {
+  // Echo returns the same message with server metadata.
+  rpc Echo (EchoRequest) returns (EchoResponse);
+}
+
+// EchoRequest is sent by the client.
+message EchoRequest {
+  string message    = 1;  // the message to echo
+  string request_id = 2;  // optional tracing ID
+}
+
+// EchoResponse is returned by the server.
+message EchoResponse {
+  string message     = 1;  // echoed message
+  string request_id  = 2;  // same ID for tracing
+  string server_time = 3;  // timestamp from server
+}
