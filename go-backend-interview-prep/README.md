@@ -128,7 +128,7 @@ These are the most commonly asked topics in Go backend interviews.
 - [x] `09_performance_and_profiling` -- Implemented (10 topics + quick revision)
 - [x] `10_design_patterns_in_go` -- Implemented (11 topics + quick revision)
 - [x] `11_system_design_in_go` -- Implemented (7 mini systems + framework + quick revision)
-- [ ] `12_capstone_projects`
+- [x] `12_capstone_projects` -- Implemented (gRPC echo service + parking lot system + quick revision)
 
 ---
 
