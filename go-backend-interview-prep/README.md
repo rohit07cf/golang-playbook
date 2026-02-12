@@ -114,6 +114,24 @@ These are the most commonly asked topics in Go backend interviews.
 
 ---
 
+## Progress
+
+- [x] `00_setup_and_workflow` -- Implemented
+- [x] `01_go_basics` -- Implemented (12 topics + quick revision)
+- [ ] `02_data_structures`
+- [ ] `03_functions_and_methods`
+- [ ] `04_interfaces_and_generics`
+- [ ] `05_errors_and_testing`
+- [ ] `06_concurrency`
+- [ ] `07_io_files_networking`
+- [ ] `08_http_and_backend`
+- [ ] `09_performance_and_profiling`
+- [ ] `10_design_patterns_in_go`
+- [ ] `11_system_design_in_go`
+- [ ] `12_capstone_projects`
+
+---
+
 ## Planned Capstone Projects
 
 - **HTTP API Service** -- CRUD with middleware, graceful shutdown, structured logging
